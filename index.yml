@@ -5,6 +5,4 @@
   version: 1.0.0
   date: 2026-08-12 00:00:00
   path: stashOpenMediaPlayerRemote.zip
-  sha256: f06a0941ac30c3ce4f2ecff1b31d06a1becb1941e0f606622832b2fdb4bd5d9f
-  requires:
-    - stashUserscriptLibrary7dJx1qPFork
+  sha256: bd0809d1a9ca80eff3e2b26b9e89c50f348d33185d20a6fe7ac4806d4b093f07
