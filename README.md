@@ -94,7 +94,9 @@ The browser launches:
 stashopenmediaplayerremote://
 ```
 
-which starts the configured media player on your local computer.
+which starts the configured media player on your local computer. 
+
+Make sure to accept the permission prompt in your browser the first time you click the "open with external player" button.
 
 This mode is recommended for:
 
