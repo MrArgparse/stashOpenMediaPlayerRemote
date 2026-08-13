@@ -32,7 +32,7 @@ https://raw.githubusercontent.com/MrArgparse/stashOpenMediaPlayerRemote/refs/hea
 
 Install **Stash Open Media Player Remote** from the package source.
 
-./images/install-plugin.jpg
+![alt text](https://raw.githubusercontent.com/MrArgparse/stashOpenMediaPlayerRemote/refs/heads/main/images/install-plugin.jpg)
 
 ---
 
@@ -53,7 +53,7 @@ Navigate to the plugin folder and run:
 python install-stashOpenMediaPlayerRemote.py
 ```
 
-./images/run-script.jpg
+![alt text](https://raw.githubusercontent.com/MrArgparse/stashOpenMediaPlayerRemote/refs/heads/main/images/run-script.jpg)
 
 ---
 
@@ -72,13 +72,13 @@ Path Mapping From:
 /data
 
 Path Mapping To:
-//tai.chi/stash
+//network_path/stash
 
 Increment Play Count:
 Enabled
 ```
 
-![Example config](./images/example- How it works
+![alt text](https://raw.githubusercontent.com/MrArgparse/stashOpenMediaPlayerRemote/refs/heads/main/images/example-config.jpg)
 
 ## Local Mode
 
@@ -124,7 +124,7 @@ Example:
 →
 
 ```text
-//tai.chi/stash
+//network_path/stash
 ```
 
 ## Button does not appear
