@@ -1,40 +1,133 @@
-# stashOpenMediaPlayerRemote
+# Stash Open Media Player Remote
 
-A simple plugin for integrating remote media playback with Stash.
+Open Stash scenes in an external media player such as SMPlayer, VLC, MPC-HC, MPV, and others.
 
-## Add the source
+Supports:
 
-Use the following source name and URL:
+- Local media player launching
+- Remote protocol launching (recommended for Docker, Unraid, NAS, and remote Stash installations)
+- Path mapping between Stash paths and SMB/network paths
+- Optional play count incrementing
+
+---
+
+# Add the source
+
+Add the following package source to Stash:
 
 ```text
+Name:
 stashOpenMediaPlayerRemote
+
+URL:
 https://raw.githubusercontent.com/MrArgparse/stashOpenMediaPlayerRemote/refs/heads/main/index.yml
 ```
 
-![Add the source](./images/add-source.png)
+./images/add-source.png
 
-## Install the plugin
+---
 
-Install the plugin along with the required dependency.
+# Install the plugin
 
-```md
-![Install plugin](./images/install-plugin.png)
+Install **Stash Open Media Player Remote** from the package source.
+
+./images/install-plugin.png
+
+---
+
+# Install the protocol handler (Remote Mode)
+
+If Stash is running on:
+
+- Docker
+- Unraid
+- NAS
+- Another machine
+
+then enable **Use Remote Protocol Handler** and install the helper script on the computer where the media player is installed.
+
+Navigate to the plugin folder and run:
+
+```bash
+python install-stashOpenMediaPlayerRemote.py
 ```
 
-## Run the script
+./images/run-script.png
 
-Navigate to the plugin folder and run the Python script:
+---
 
-```md
-![Run script](./images/run-script.png)
+# Example configuration
+
+## Remote Setup (Recommended)
+
+```text
+Media Player Path:
+C:\Program Files\SMPlayer\smplayer.exe
+
+Use Remote Protocol Handler:
+Enabled
+
+Path Mapping From:
+/data
+
+Path Mapping To:
+//tai.chi/stash
+
+Increment Play Count:
+Enabled
 ```
 
-## Example configuration
+![Example config](./images/example- How it works
 
-```yaml
-# Example config
+## Local Mode
+
+Stash launches the media player directly.
+
+Recommended only when Stash and the media player are running on the same machine.
+
+## Remote Mode
+
+The browser launches:
+
+```text
+stashopenmediaplayerremote://
 ```
 
-```md
-![Example config](./images/example-config.png)
-``
+which starts the configured media player on your local computer.
+
+This mode is recommended for:
+
+- Docker
+- Unraid
+- NAS
+- Remote servers
+
+---
+
+# Troubleshooting
+
+## Media file not found
+
+Verify that:
+
+- Path Mapping From matches the Stash file path.
+- Path Mapping To points to a valid SMB/network share.
+- The media file can be opened manually from Windows Explorer.
+
+Example:
+
+```text
+/data
+```
+
+→
+
+```text
+//tai.chi/stash
+```
+
+## Button does not appear
+
+Refresh Stash after installing or updating the plugin.
+
+If the issue persists, reload plugins from Settings → Plugins.
