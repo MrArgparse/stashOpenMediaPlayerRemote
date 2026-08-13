@@ -78,7 +78,7 @@ Increment Play Count:
 Enabled
 ```
 
-![alt text](https://raw.githubusercontent.com/MrArgparse/stashOpenMediaPlayerRemote/refs/heads/main/images/plujgin-config.jpg)
+![alt text](https://raw.githubusercontent.com/MrArgparse/stashOpenMediaPlayerRemote/refs/heads/main/images/plugin-config.jpg)
 
 ## Local Mode
 
