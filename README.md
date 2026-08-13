@@ -24,8 +24,7 @@ https://raw.githubusercontent.com/MrArgparse/stashOpenMediaPlayerRemote/refs/hea
 ```
 
 ./images/add-source.jpg
-
-![alt text]((https://raw.githubusercontent.com/MrArgparse/stashOpenMediaPlayerRemote/refs/heads/main/images/add-source.jpg) "Logo Title Text 1")
+![add-source.jpg
 ---
 
 # Install the plugin
