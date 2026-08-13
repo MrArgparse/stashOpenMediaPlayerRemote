@@ -1,12 +1,3 @@
-- id: stashUserscriptLibrary7dJx1qPFork
-  name: 7dJx1qP's Stash Userscript Library (fork)
-  metadata:
-    description: Exports utility functions and a Stash class that emits events whenever a GQL response is received and whenever a page navigation change is detected
-  version: 0.43.2-eaf84cc
-  date: 2026-01-17 15:53:23
-  path: stashUserscriptLibrary7dJx1qPFork.zip
-  sha256: 201932fc69743ed75179e4763774317a970e903647e88b765553adcadb3981b3
-
 - id: stashOpenMediaPlayerRemote
   name: Stash Open Media Player Remote
   metadata:
