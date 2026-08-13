@@ -53,7 +53,7 @@ Navigate to the plugin folder and run:
 python install-stashOpenMediaPlayerRemote.py
 ```
 
-![alt text](https://raw.githubusercontent.com/MrArgparse/stashOpenMediaPlayerRemote/refs/heads/main/images/run-script.jpg)
+![alt text](https://raw.githubusercontent.com/MrArgparse/stashOpenMediaPlayerRemote/refs/heads/main/images/install-protocol.jpg)
 
 ---
 
@@ -78,7 +78,7 @@ Increment Play Count:
 Enabled
 ```
 
-![alt text](https://raw.githubusercontent.com/MrArgparse/stashOpenMediaPlayerRemote/refs/heads/main/images/example-config.jpg)
+![alt text](https://raw.githubusercontent.com/MrArgparse/stashOpenMediaPlayerRemote/refs/heads/main/images/plujgin-config.jpg)
 
 ## Local Mode
 
