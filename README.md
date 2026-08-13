@@ -23,6 +23,8 @@ URL:
 https://raw.githubusercontent.com/MrArgparse/stashOpenMediaPlayerRemote/refs/heads/main/index.yml
 ```
 
+
+![alt text](https://raw.githubusercontent.com/MrArgparse/stashOpenMediaPlayerRemote/refs/heads/main/images/add-source.jpg "Logo Title Text 1")
 ./images/add-source.jpg
 ![add-source.jpg
 ---
