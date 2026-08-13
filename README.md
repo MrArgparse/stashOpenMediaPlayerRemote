@@ -23,7 +23,7 @@ URL:
 https://raw.githubusercontent.com/MrArgparse/stashOpenMediaPlayerRemote/refs/heads/main/index.yml
 ```
 
-./images/add-source.png
+./images/add-source.jpg
 
 ---
 
@@ -31,7 +31,7 @@ https://raw.githubusercontent.com/MrArgparse/stashOpenMediaPlayerRemote/refs/hea
 
 Install **Stash Open Media Player Remote** from the package source.
 
-./images/install-plugin.png
+./images/install-plugin.jpg
 
 ---
 
@@ -52,7 +52,7 @@ Navigate to the plugin folder and run:
 python install-stashOpenMediaPlayerRemote.py
 ```
 
-./images/run-script.png
+./images/run-script.jpg
 
 ---
 
