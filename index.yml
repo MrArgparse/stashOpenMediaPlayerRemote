@@ -2,7 +2,7 @@
   name: Stash Open Media Player Remote
   metadata:
     description: Open scene filepath links in an external media player using local paths or remote protocol handlers
-  version: 1.0.0
+  version: 1.0.1
   date: 2026-08-12 00:00:00
   path: stashOpenMediaPlayerRemote.zip
-  sha256: 420cfa45d52ab89d48f5da931649857cb44d1cc5b658a087d4c46c35ec2abc3c
+  sha256: f8d5e81478af8403d5ae6de2e6078e7f43145b08686fd6bb9eb548ab753913e2
