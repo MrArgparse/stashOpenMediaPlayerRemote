@@ -134,3 +134,87 @@ Example:
 Refresh Stash after installing or updating the plugin.
 
 If the issue persists, reload plugins from Settings → Plugins.
+
+## Optional: Suppress Chromium-Based Browser Launch Prompts
+
+Chromium-based browsers may display a confirmation dialog every time the
+`stashopenmediaplayerremote://` protocol is launched.
+
+This can be suppressed using the `AutoLaunchProtocolsFromOrigins` browser policy.
+
+### Policy Value
+
+Create a string value named:
+
+```text
+AutoLaunchProtocolsFromOrigins
+```
+
+with the following JSON:
+
+```json
+[
+  {
+    "protocol": "stashopenmediaplayerremote",
+    "allowed_origins": [
+      "http://YOUR-STASH-SERVER:9999"
+    ]
+  }
+]
+```
+
+### Windows Registry Locations
+
+Create the `AutoLaunchProtocolsFromOrigins` value in the appropriate location
+for your browser:
+
+#### Chromium
+
+```text
+HKEY_CURRENT_USER\Software\Policies\Chromium
+```
+
+#### Google Chrome
+
+```text
+HKEY_CURRENT_USER\Software\Policies\Google\Chrome
+```
+
+#### Microsoft Edge
+
+```text
+HKEY_CURRENT_USER\Software\Policies\Microsoft\Edge
+```
+
+#### Vivaldi
+
+```text
+HKEY_CURRENT_USER\Software\Policies\Vivaldi
+```
+
+#### Brave
+
+```text
+HKEY_CURRENT_USER\Software\Policies\BraveSoftware\Brave
+```
+
+### Verify The Policy
+
+Restart the browser and visit its policy page:
+
+| Browser | Policy Page |
+|----------|------------|
+| Chromium | `chrome://policy` |
+| Google Chrome | `chrome://policy` |
+| Microsoft Edge | `edge://policy` |
+| Vivaldi | `vivaldi://policy` |
+| Brave | `brave://policy` |
+
+The `AutoLaunchProtocolsFromOrigins` policy should appear as **Set**.
+
+### Notes
+
+- This is optional.
+- This only affects the specified browser.
+- Portable browser versions may ignore system policies.
+- Browser updates may change policy behaviour in the future.
